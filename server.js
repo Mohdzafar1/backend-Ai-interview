@@ -16,8 +16,8 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  // origin: ["https://ai-interview-t6vs.vercel.app",'http://localhost:5173',process.env.URL],
-  origin: ['http://localhost:5173'],
+  origin: ["https://silver-starburst-37aeed.netlify.app",process.env.URL],
+  // origin: ['http://localhost:5173'],
 
   credentials: true
 }));
